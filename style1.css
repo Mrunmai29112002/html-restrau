@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#root img{
+    height: 350px;
+    width: 1500px;
+    position: relative;
+    z-index: -1;
+    
+}
+.points img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    top: 300px;
+    left: 600px;
+    border-radius: 50px;
+}
+
+.ptext{
+    margin-left: 575px;
+    margin-top: 58px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container{
+    margin-bottom: 44px;
+    margin-top: 75px;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+    background-color: cornsilk;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+.food{
+    margin-top: 10px;
+}
